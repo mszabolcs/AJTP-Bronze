@@ -10,4 +10,13 @@ public class Position {
         this.start_date = start_date;
         this.end_date = end_date;
     }
+
+    @Override
+    public String toString() {
+        return "Position{" +
+                "cusip='" + cusip + '\'' +
+                ", start_date=" + start_date +
+                ", end_date=" + end_date +
+                '}';
+    }
 }
