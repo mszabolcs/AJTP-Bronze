@@ -15,6 +15,8 @@ public class Main {
         positions.add(position2);
 
         Portfolio portfolio1 = new Portfolio("Portf1",positions);
+        Portfolio portfolio2 = new Portfolio("Portf2",positions);
         System.out.println(portfolio1.toString());
+        System.out.println(portfolio2.toString());
     }
 }
