@@ -18,5 +18,6 @@ public class Main {
         Portfolio portfolio2 = new Portfolio("Portf2",positions);
         System.out.println(portfolio1.toString());
         System.out.println(portfolio2.toString());
+        //This is just a comment
     }
 }
